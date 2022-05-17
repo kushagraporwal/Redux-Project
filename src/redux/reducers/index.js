@@ -5,3 +5,5 @@ const reducers= combineReducers({
 
     allproducts: productreducer,
 });
+
+export default reducers;

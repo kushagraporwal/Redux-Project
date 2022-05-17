@@ -11,7 +11,7 @@ const initialstate= {
     ],
 };
 
-export const productreducer = (state, {type, payload}) =>{
+export const productreducer = (state= initialstate, {type, payload}) =>{
 
     switch(type) {
 
