@@ -4,12 +4,12 @@ import { useSelector } from 'react-redux'
 const Productcomponent = () => {
 
     const products= useSelector((state) => state.allproducts.products);
-    const {id, title} = products;
+    const {id, title} = products[0];
   return (
     <div>
     <h1>Productcomponent</h1>
     <div>
-        <p>{title}</p>
+        {title}
     </div>
     </div>
   )
