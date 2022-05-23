@@ -13,6 +13,7 @@ function App() {
     <Header />
       <Routes>
       <Route exact path="/" element={<Productlist/>} />
+      <Route exact path="/products/:productid" element={<Productdetail/>} />
       </Routes>
     </BrowserRouter>
    
